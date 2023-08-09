@@ -1,3 +1,6 @@
+![image](https://github.com/candy2022/react-for-beginners/assets/96950198/da274687-8d35-4b5a-97d8-cc175b218ff9)
+![image](https://github.com/candy2022/react-for-beginners/assets/96950198/f168f74b-9966-4520-8b26-bbd4989e3ba9)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
