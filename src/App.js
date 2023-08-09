@@ -1,9 +1,20 @@
-function App() {
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+   
+} from "react-router-dom";
+import Home from "./routes/Home";
+import Detail from "./routes/Detail";
+function App(){ //함수를 실행하면 다시 render
   return (
-    <div>
-      <h1>welcome back</h1>
-    </div>
+  <Router>
+    <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/movie/:id" element={<Detail/>}/>   
+    </Routes>
+  </Router>
   );
-}
+} 
 
 export default App;
